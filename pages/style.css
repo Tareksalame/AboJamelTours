@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    background-color: rgb(0, 125, 132);
+}
+#header
+{
+    border-bottom: 5px solid rgb(15, 192, 223);
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#headerTitle
+{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(3, 1, 52);
+    margin-top: 0px;
+    margin-bottom: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images
+{
+    width: 15%;
+    margin-left: 8%;
+}
+
+#mainDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redirectDivs
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.redirectTitles
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 25px;
+margin-right: 10%;
+}
+a
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between ;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 138, 250);
+    border: 5px solid rgb(3, 1, 52);
+    height: 80px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(255, 216, 96);
+}
+
+#miniuDiv
+{
+    /* bottom: 0px; */
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+#design
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
